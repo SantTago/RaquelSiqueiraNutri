@@ -1,0 +1,811 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chega de Dúvidas! Desperte a Parentalidade dos Seus Sonhos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'salmon': '#FF6B6B',
+                        'forest-green': '#2D5016',
+                        'salmon-light': '#FF8E8E',
+                        'salmon-dark': '#E55555'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .pulse-strong { animation: pulseStrong 1.5s infinite; }
+        @keyframes pulseStrong {
+            0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 107, 107, 0.7); }
+            50% { transform: scale(1.05); box-shadow: 0 0 0 20px rgba(255, 107, 107, 0); }
+        }
+        .shake { animation: shake 0.5s ease-in-out infinite alternate; }
+        @keyframes shake {
+            0% { transform: translateX(-2px); }
+            100% { transform: translateX(2px); }
+        }
+        .glow { box-shadow: 0 0 30px rgba(255, 107, 107, 0.5); }
+        .floating { animation: floating 3s ease-in-out infinite; }
+        @keyframes floating {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        .bounce-gentle { animation: bounceGentle 2s ease-in-out infinite; }
+        @keyframes bounceGentle {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-5px); }
+        }
+        .rainbow-border {
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4, #45B7D1, #96CEB4, #FFEAA7, #DDA0DD);
+            background-size: 400% 400%;
+            animation: rainbow 3s ease infinite;
+        }
+        @keyframes rainbow {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        .child-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 25px;
+            position: relative;
+            overflow: hidden;
+        }
+        .child-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: shimmer 3s ease-in-out infinite;
+        }
+        @keyframes shimmer {
+            0%, 100% { transform: rotate(0deg); }
+            50% { transform: rotate(180deg); }
+        }
+        .sticker-effect {
+            position: relative;
+            transform: rotate(-5deg);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        .price-tag {
+            background: linear-gradient(45deg, #FF6B6B, #FF8E8E);
+            border-radius: 50px;
+            position: relative;
+            overflow: hidden;
+        }
+        .price-tag::after {
+            content: '✨';
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            font-size: 20px;
+            animation: sparkle 1.5s ease-in-out infinite;
+        }
+        @keyframes sparkle {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.2); }
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Hero Section -->
+    <section class="py-20 px-4 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50">
+        <div class="max-w-6xl mx-auto text-center">
+            <!-- Decorative elements -->
+            <div class="absolute top-10 left-10 text-4xl bounce-gentle">🌟</div>
+            <div class="absolute top-20 right-20 text-3xl bounce-gentle" style="animation-delay: 0.5s;">🎈</div>
+            <div class="absolute top-40 left-1/4 text-2xl bounce-gentle" style="animation-delay: 1s;">✨</div>
+            
+            <h1 class="text-5xl md:text-7xl font-black text-forest-green mb-6 leading-tight">
+                🌈 Chega de Dúvidas! <br>
+                <span class="text-salmon">Desperte a Parentalidade</span> <br>
+                dos Seus Sonhos! 🌈
+            </h1>
+            
+            <h2 class="text-2xl md:text-4xl font-bold text-gray-800 mb-8">
+                Medo na introdução alimentar? Amamentação dolorosa? <br>
+                Incertezas nos primeiros cuidados? <span class="text-salmon font-black">NÃO MAIS! 🚀</span>
+            </h2>
+            
+            <div class="bg-white rounded-2xl p-8 max-w-4xl mx-auto mb-12 shadow-lg border border-gray-200">
+                <div class="flex items-center justify-center mb-6">
+                    <div class="w-20 h-20 bg-forest-green rounded-full flex items-center justify-center text-white text-2xl font-bold shadow-lg">
+                        👩‍⚕️
+                    </div>
+                </div>
+                <p class="text-xl text-gray-700 leading-relaxed text-center">
+                    A <strong class="text-forest-green">Nutricionista Materno Infantil especializada</strong> tem o mapa para sua <span class="text-salmon font-bold">Paz de Espírito</span> e a <span class="text-forest-green font-bold">Saúde Plena</span> do seu bebê. Conhecimento validado, prático e na sua mão.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="text-center bg-white rounded-xl p-6 shadow-md border border-gray-200">
+                    <div class="text-5xl mb-4">😰</div>
+                    <h3 class="text-xl font-bold text-gray-600 mb-2">ANTES</h3>
+                    <p class="text-gray-600">Pais sobrecarregados, inseguros e exaustos</p>
+                </div>
+                <div class="text-center bg-white rounded-xl p-6 shadow-md border border-gray-200">
+                    <div class="text-5xl mb-4">😊</div>
+                    <h3 class="text-xl font-bold text-forest-green mb-2">DEPOIS</h3>
+                    <p class="text-forest-green font-semibold">Pais seguros, confiantes e felizes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-20 px-4 bg-gradient-to-br from-green-50 to-blue-50">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-forest-green mb-8">👩‍⚕️ Sobre a Especialista 🌟</h2>
+                <div class="flex items-center justify-center mb-8">
+                    <div class="w-32 h-32 bg-gradient-to-br from-forest-green to-green-600 rounded-full flex items-center justify-center text-white text-4xl font-bold shadow-2xl floating border-4 border-white">
+                        👩‍⚕️
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white/90 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border-2 border-white/50">
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-forest-green mb-4">🎓 Nutricionista Materno Infantil</h3>
+                        <p class="text-gray-700 mb-4 leading-relaxed">
+                            Especialista em nutrição materno infantil com anos de experiência ajudando famílias a navegarem pelos desafios da primeira infância com <strong>segurança e amor</strong>.
+                        </p>
+                        <p class="text-gray-700 mb-6 leading-relaxed">
+                            Formação sólida e paixão genuína por transformar a jornada da parentalidade em uma experiência mais segura, tranquila e prazerosa para toda a família.
+                        </p>
+                        
+                        <div class="space-y-3">
+                            <div class="flex items-center bg-green-50 p-3 rounded-xl">
+                                <span class="text-forest-green mr-3 text-xl">🏆</span>
+                                <span class="text-gray-700 font-semibold">Especialização em Nutrição Materno Infantil</span>
+                            </div>
+                            <div class="flex items-center bg-blue-50 p-3 rounded-xl">
+                                <span class="text-forest-green mr-3 text-xl">👨‍👩‍👧‍👦</span>
+                                <span class="text-gray-700 font-semibold">Centenas de famílias atendidas</span>
+                            </div>
+                            <div class="flex items-center bg-purple-50 p-3 rounded-xl">
+                                <span class="text-forest-green mr-3 text-xl">🔬</span>
+                                <span class="text-gray-700 font-semibold">Abordagem baseada em evidências científicas</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="bg-gradient-to-br from-salmon/20 to-pink-100 rounded-2xl p-6 mb-6 border-2 border-salmon/30">
+                            <p class="text-salmon font-bold text-lg mb-2">💝 Missão</p>
+                            <p class="text-gray-700 italic font-medium">
+                                "Empoderar pais e mães com conhecimento prático e seguro para que possam cuidar de seus filhos com confiança e amor."
+                            </p>
+                        </div>
+                        
+                        <div class="grid grid-cols-2 gap-4 text-center">
+                            <div class="bg-gradient-to-br from-forest-green/10 to-green-100 rounded-xl p-4 border-2 border-forest-green/20">
+                                <p class="text-3xl font-bold text-forest-green">500+</p>
+                                <p class="text-sm text-gray-600 font-semibold">👨‍👩‍👧‍👦 Famílias Atendidas</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-salmon/10 to-pink-100 rounded-xl p-4 border-2 border-salmon/20">
+                                <p class="text-3xl font-bold text-salmon">98%</p>
+                                <p class="text-sm text-gray-600 font-semibold">⭐ Satisfação</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Introduction -->
+    <section class="py-16 px-4 bg-white">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-4xl font-bold text-forest-green mb-6">
+                Seus Guias Essenciais: Escolha Sua Solução
+            </h2>
+            <p class="text-xl text-gray-700 mb-8">
+                Conheça os e-books que vão mudar sua rotina. Adquira individualmente ou leve o conhecimento completo com um <span class="text-salmon font-bold text-2xl">MEGA DESCONTO!</span>
+            </p>
+            
+            <div class="mb-12">
+                <button id="menuButton" class="bg-gradient-to-r from-salmon to-salmon-light hover:from-salmon-dark hover:to-salmon text-white font-bold py-6 px-10 rounded-full text-xl pulse-strong transition-all duration-300 transform hover:scale-105 shadow-2xl border-4 border-white sticker-effect">
+                    👶✨ Crie o Cardápio do Seu Bebê! ✨👶
+                </button>
+                <p class="text-gray-600 mt-4 font-semibold">🎯 Descubra o que seu bebê pode comer hoje!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product 1: Introdução Alimentar -->
+    <section class="py-12 px-4 bg-gradient-to-br from-orange-50 to-yellow-50">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="text-center">
+                    <div class="bg-white/80 backdrop-blur-sm rounded-3xl p-8 floating shadow-2xl border-4 border-orange-200">
+                        <div class="text-6xl mb-4 bounce-gentle">🍎</div>
+                        <div class="child-card w-48 h-64 mx-auto flex items-center justify-center text-white font-bold text-lg shadow-2xl relative">
+                            <div class="text-center z-10">
+                                <div class="text-3xl mb-2">📚</div>
+                                <div>GUIA DEFINITIVO<br>INTRODUÇÃO<br>ALIMENTAR</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-3xl font-bold text-forest-green mb-6">
+                        🍎 GUIA DE INTRODUÇÃO ALIMENTAR
+                    </h3>
+                    
+                    <div class="bg-gradient-to-r from-red-50 to-orange-50 border-l-4 border-salmon p-6 mb-6 rounded-r-xl">
+                        <p class="text-red-700 font-bold text-lg">
+                            🚨 Engasgos? Não sabe por onde começar? <span class="text-salmon">Acabe com a insegurança!</span>
+                        </p>
+                    </div>
+                    
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-center bg-white/60 p-3 rounded-xl">
+                            <span class="text-forest-green mr-3 text-2xl">🛡️</span>
+                            <span class="text-gray-700 font-semibold">Segurança total na Introdução Alimentar</span>
+                        </div>
+                        <div class="flex items-center bg-white/60 p-3 rounded-xl">
+                            <span class="text-forest-green mr-3 text-2xl">📋</span>
+                            <span class="text-gray-700 font-semibold">Cardápios prontos para cada fase</span>
+                        </div>
+                        <div class="flex items-center bg-white/60 p-3 rounded-xl">
+                            <span class="text-forest-green mr-3 text-2xl">🚫</span>
+                            <span class="text-gray-700 font-semibold">Prevenção completa de engasgos</span>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-r from-salmon/20 to-pink-100 border-2 border-salmon rounded-xl p-4 mb-8 sticker-effect">
+                        <p class="text-salmon font-bold text-lg text-center">
+                            🎁 BÔNUS EXCLUSIVO: Tabelas de Cortes Seguros!
+                        </p>
+                    </div>
+                    
+                    <div class="text-center bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-2xl border-2 border-white/50">
+                        <div class="mb-4">
+                            <div class="price-tag inline-block px-6 py-2 mb-3">
+                                <p class="text-white line-through text-lg mb-1">De R$ 97,00</p>
+                            </div>
+                            <p class="text-5xl font-black text-salmon mb-2">R$ 47,00</p>
+                            <div class="bg-gradient-to-r from-green-400 to-green-500 text-white px-4 py-2 rounded-full text-sm font-bold inline-block shadow-lg">
+                                💰 ECONOMIZE 52%
+                            </div>
+                        </div>
+                        <button class="bg-gradient-to-r from-salmon to-salmon-light hover:from-salmon-dark hover:to-salmon text-white font-bold py-4 px-8 rounded-full text-lg pulse-strong transition-all duration-300 w-full max-w-md shadow-xl">
+                            🛒 QUERO ESTE GUIA AGORA!
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product 2: Amamentação -->
+    <section class="py-12 px-4 bg-gradient-to-br from-pink-50 to-purple-50">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="order-2 md:order-1">
+                    <h3 class="text-3xl font-bold text-forest-green mb-6">
+                        🤱 GUIA COMPLETO DE AMAMENTAÇÃO
+                    </h3>
+                    
+                    <div class="bg-gradient-to-r from-red-50 to-pink-50 border-l-4 border-salmon p-6 mb-6 rounded-r-xl">
+                        <p class="text-red-700 font-bold text-lg">
+                            🚨 Dor? Pega errada? Leite pouco? <span class="text-salmon">Amamente com prazer!</span>
+                        </p>
+                    </div>
+                    
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-center bg-white/60 p-3 rounded-xl">
+                            <span class="text-forest-green mr-3 text-2xl">💝</span>
+                            <span class="text-gray-700 font-semibold">Adeus à dor na amamentação</span>
+                        </div>
+                        <div class="flex items-center bg-white/60 p-3 rounded-xl">
+                            <span class="text-forest-green mr-3 text-2xl">🍼</span>
+                            <span class="text-gray-700 font-semibold">Aumento natural da produção de leite</span>
+                        </div>
+                        <div class="flex items-center bg-white/60 p-3 rounded-xl">
+                            <span class="text-forest-green mr-3 text-2xl">😌</span>
+                            <span class="text-gray-700 font-semibold">Amamentação tranquila e prazerosa</span>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-r from-salmon/20 to-pink-100 border-2 border-salmon rounded-xl p-4 mb-8 sticker-effect">
+                        <p class="text-salmon font-bold text-lg text-center">
+                            🎁 BÔNUS EXCLUSIVO: Guia Visual de Posições!
+                        </p>
+                    </div>
+                    
+                    <div class="text-center bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-2xl border-2 border-white/50">
+                        <div class="mb-4">
+                            <div class="price-tag inline-block px-6 py-2 mb-3">
+                                <p class="text-white line-through text-lg mb-1">De R$ 87,00</p>
+                            </div>
+                            <p class="text-5xl font-black text-salmon mb-2">R$ 42,00</p>
+                            <div class="bg-gradient-to-r from-green-400 to-green-500 text-white px-4 py-2 rounded-full text-sm font-bold inline-block shadow-lg">
+                                💰 ECONOMIZE 52%
+                            </div>
+                        </div>
+                        <button class="bg-gradient-to-r from-salmon to-salmon-light hover:from-salmon-dark hover:to-salmon text-white font-bold py-4 px-8 rounded-full text-lg pulse-strong transition-all duration-300 w-full max-w-md shadow-xl">
+                            🛒 QUERO ESTE GUIA AGORA!
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="text-center order-1 md:order-2">
+                    <div class="bg-white/80 backdrop-blur-sm rounded-3xl p-8 floating shadow-2xl border-4 border-pink-200">
+                        <div class="text-6xl mb-4 bounce-gentle">🤱</div>
+                        <div class="child-card w-48 h-64 mx-auto flex items-center justify-center text-white font-bold text-lg shadow-2xl relative">
+                            <div class="text-center z-10">
+                                <div class="text-3xl mb-2">💕</div>
+                                <div>GUIA COMPLETO<br>AMAMENTAÇÃO</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product 3: Cuidados do Bebê -->
+    <section class="py-12 px-4 bg-gradient-to-br from-blue-50 to-green-50">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="text-center">
+                    <div class="bg-white/80 backdrop-blur-sm rounded-3xl p-8 floating shadow-2xl border-4 border-blue-200">
+                        <div class="text-6xl mb-4 bounce-gentle">👶</div>
+                        <div class="child-card w-48 h-64 mx-auto flex items-center justify-center text-white font-bold text-lg shadow-2xl relative">
+                            <div class="text-center z-10">
+                                <div class="text-3xl mb-2">🍼</div>
+                                <div>CUIDADOS<br>E ALIMENTAÇÃO<br>DO BEBÊ</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-3xl font-bold text-forest-green mb-6">
+                        👶 CUIDADOS E ALIMENTAÇÃO DO BEBÊ
+                    </h3>
+                    
+                    <div class="bg-gradient-to-r from-red-50 to-blue-50 border-l-4 border-salmon p-6 mb-6 rounded-r-xl">
+                        <p class="text-red-700 font-bold text-lg">
+                            🚨 Cólicas? Sono? Rotina do bebê? <span class="text-salmon">Tanta dúvida nos primeiros meses!</span>
+                        </p>
+                    </div>
+                    
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-center bg-white/60 p-3 rounded-xl">
+                            <span class="text-forest-green mr-3 text-2xl">⏰</span>
+                            <span class="text-gray-700 font-semibold">Rotinas eficazes para cada fase</span>
+                        </div>
+                        <div class="flex items-center bg-white/60 p-3 rounded-xl">
+                            <span class="text-forest-green mr-3 text-2xl">🌿</span>
+                            <span class="text-gray-700 font-semibold">Alívio natural das cólicas</span>
+                        </div>
+                        <div class="flex items-center bg-white/60 p-3 rounded-xl">
+                            <span class="text-forest-green mr-3 text-2xl">📱</span>
+                            <span class="text-gray-700 font-semibold">Manejo correto de telas e primeiros cuidados</span>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-r from-salmon/20 to-blue-100 border-2 border-salmon rounded-xl p-4 mb-8 sticker-effect">
+                        <p class="text-salmon font-bold text-lg text-center">
+                            🎁 BÔNUS EXCLUSIVO: Checklist de Primeiros Socorros!
+                        </p>
+                    </div>
+                    
+                    <div class="text-center bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-2xl border-2 border-white/50">
+                        <div class="mb-4">
+                            <div class="price-tag inline-block px-6 py-2 mb-3">
+                                <p class="text-white line-through text-lg mb-1">De R$ 77,00</p>
+                            </div>
+                            <p class="text-5xl font-black text-salmon mb-2">R$ 37,00</p>
+                            <div class="bg-gradient-to-r from-green-400 to-green-500 text-white px-4 py-2 rounded-full text-sm font-bold inline-block shadow-lg">
+                                💰 ECONOMIZE 52%
+                            </div>
+                        </div>
+                        <button class="bg-gradient-to-r from-salmon to-salmon-light hover:from-salmon-dark hover:to-salmon text-white font-bold py-4 px-8 rounded-full text-lg pulse-strong transition-all duration-300 w-full max-w-md shadow-xl">
+                            🛒 QUERO ESTE GUIA AGORA!
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MEGA OFFER SECTION -->
+    <section class="py-20 px-4 bg-forest-green text-white">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-5xl md:text-7xl font-black mb-8 shake">
+                PARE! POR QUE PAGAR MAIS?<br>
+                <span class="text-salmon">LEVE TUDO AGORA!</span>
+            </h2>
+            
+            <p class="text-2xl mb-12 opacity-90">
+                Imagine ter <span class="text-salmon font-bold">TODAS AS RESPOSTAS</span>, toda a segurança e cada ferramenta necessária.
+            </p>
+            
+            <div class="bg-white/10 backdrop-blur-sm rounded-3xl p-8 mb-12 max-w-4xl mx-auto">
+                <div class="grid md:grid-cols-3 gap-6 mb-8">
+                    <div class="text-center">
+                        <div class="text-4xl mb-2">🍎</div>
+                        <p class="font-bold">Introdução Alimentar</p>
+                        <p class="text-salmon font-bold text-xl">R$ 47,00</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl mb-2">🤱</div>
+                        <p class="font-bold">Guia de Amamentação</p>
+                        <p class="text-salmon font-bold text-xl">R$ 42,00</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl mb-2">👶</div>
+                        <p class="font-bold">Cuidados do Bebê</p>
+                        <p class="text-salmon font-bold text-xl">R$ 37,00</p>
+                    </div>
+                </div>
+                
+                <div class="border-t border-white/20 pt-8">
+                    <p class="text-xl opacity-75 line-through mb-4">Preço Individual Total: R$ 126,00</p>
+                    
+                    <div class="bg-salmon rounded-2xl p-6 mb-6 glow">
+                        <p class="text-white text-lg font-bold mb-2">SUA OFERTA INAUGURAL ÚNICA:</p>
+                        <p class="text-white text-6xl font-black">APENAS R$ 67,00</p>
+                    </div>
+                    
+                    <div class="bg-salmon/20 border-2 border-salmon rounded-xl p-6 mb-8">
+                        <p class="text-salmon font-bold text-xl mb-2">🧊 OFERTA ESPECIAL!</p>
+                        <p class="text-white font-semibold">
+                            Este preço é <span class="text-salmon font-bold">CONGELADO PARA SEMPRE!</span><br>
+                            Mesmo com mais conteúdo, seu investimento é PROTEGIDO.<br>
+                            <span class="text-salmon font-bold">NUNCA MAIS SE REPETIRÁ!</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="bg-salmon hover:bg-salmon-dark text-white font-black py-6 px-12 rounded-full text-2xl pulse-strong transition-all duration-300 transform hover:scale-105 shadow-2xl glow mb-4">
+                SIM! QUERO O PACOTE COMPLETO E A PAZ DE ESPÍRITO!
+            </button>
+            
+            <p class="text-salmon font-semibold text-lg">
+                ⚡ Acesso Vitalício • 🛡️ Risco Zero
+            </p>
+        </div>
+    </section>
+
+    <!-- Transformation Section -->
+    <section class="py-20 px-4 bg-white">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-4xl font-bold text-forest-green mb-8">
+                Mais que E-books: Sua Confiança e a Saúde do Seu Bebê!
+            </h2>
+            
+            <p class="text-xl text-gray-700 mb-12 max-w-3xl mx-auto">
+                <span class="text-salmon font-bold">Paz de espírito</span>, economia de tempo, conhecimento especializado de nossa <span class="text-forest-green font-bold">Nutricionista Especializada</span>. Invista no futuro.
+            </p>
+            
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <div class="bg-gray-50 rounded-2xl p-6">
+                    <div class="text-4xl mb-4">💬</div>
+                    <p class="text-forest-green font-semibold italic">
+                        "Finalmente durmo tranquila sabendo que estou fazendo tudo certo!"
+                    </p>
+                    <p class="text-gray-600 mt-2">- Ana, mãe do Pedro</p>
+                </div>
+                <div class="bg-gray-50 rounded-2xl p-6">
+                    <div class="text-4xl mb-4">💬</div>
+                    <p class="text-forest-green font-semibold italic">
+                        "A amamentação virou um momento de puro amor, sem dor!"
+                    </p>
+                    <p class="text-gray-600 mt-2">- Carla, mãe da Sofia</p>
+                </div>
+                <div class="bg-gray-50 rounded-2xl p-6">
+                    <div class="text-4xl mb-4">💬</div>
+                    <p class="text-forest-green font-semibold italic">
+                        "Meu bebê come de tudo e eu não tenho mais medo!"
+                    </p>
+                    <p class="text-gray-600 mt-2">- Juliana, mãe do Lucas</p>
+                </div>
+            </div>
+            
+            <div class="bg-gradient-to-r from-salmon to-salmon-light rounded-2xl p-8 text-white max-w-2xl mx-auto">
+                <h3 class="text-2xl font-bold mb-4">🛡️ GARANTIA RISCO ZERO!</h3>
+                <p class="text-lg">
+                    <strong>15 dias</strong> para amar ou ter seu dinheiro de volta.<br>
+                    <strong>Sem perguntas!</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-20 px-4 bg-forest-green text-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-6xl font-black mb-8">
+                Abrace a parentalidade <span class="text-salmon">sem medo</span>.<br>
+                A oportunidade de transformar sua vida<br>
+                e a do seu filho é <span class="text-salmon shake">HOJE!</span>
+            </h2>
+            
+            <button class="bg-salmon hover:bg-salmon-dark text-white font-black py-6 px-12 rounded-full text-2xl pulse-strong transition-all duration-300 transform hover:scale-105 shadow-2xl glow mb-6">
+                QUERO DESBLOQUEAR TODO O CONHECIMENTO AGORA!
+            </button>
+            
+            <p class="text-salmon font-semibold text-lg">
+                ✨ Visite KidsBaby.shop e transforme sua jornada!
+            </p>
+        </div>
+    </section>
+
+    <!-- Menu Pop-up Modal -->
+    <div id="menuModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+            <div class="p-8">
+                <!-- Header -->
+                <div class="text-center mb-8">
+                    <button id="closeModal" class="float-right text-gray-500 hover:text-gray-700 text-2xl font-bold">&times;</button>
+                    <h2 class="text-3xl font-bold text-forest-green mb-2">Cardápio Ideal para Seu Bebê!</h2>
+                    <p class="text-gray-600">Sugestões rápidas da Nutricionista Especializada!</p>
+                </div>
+                
+                <!-- Age Selection -->
+                <div id="ageSelection" class="mb-8">
+                    <h3 class="text-xl font-bold text-forest-green mb-4 text-center">Qual a idade do seu bebê?</h3>
+                    <div class="grid grid-cols-2 gap-4">
+                        <button class="age-btn bg-salmon/20 hover:bg-salmon/30 text-forest-green font-semibold py-3 px-4 rounded-xl transition-all duration-300" data-age="6-7">
+                            6 a 7 meses
+                        </button>
+                        <button class="age-btn bg-salmon/20 hover:bg-salmon/30 text-forest-green font-semibold py-3 px-4 rounded-xl transition-all duration-300" data-age="8-9">
+                            8 a 9 meses
+                        </button>
+                        <button class="age-btn bg-salmon/20 hover:bg-salmon/30 text-forest-green font-semibold py-3 px-4 rounded-xl transition-all duration-300" data-age="10-11">
+                            10 a 11 meses
+                        </button>
+                        <button class="age-btn bg-salmon/20 hover:bg-salmon/30 text-forest-green font-semibold py-3 px-4 rounded-xl transition-all duration-300" data-age="12+">
+                            12+ meses
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Menu Content (Hidden initially) -->
+                <div id="menuContent" class="hidden">
+                    <h3 id="menuTitle" class="text-2xl font-bold text-forest-green mb-4 text-center"></h3>
+                    <p class="text-gray-600 text-center mb-6">Uma amostra para você. Para o guia completo, clique abaixo!</p>
+                    
+                    <div id="menuItems" class="bg-gray-50 rounded-2xl p-6 mb-6">
+                        <!-- Dynamic content will be inserted here -->
+                    </div>
+                    
+                    <div class="bg-salmon/10 border-2 border-salmon rounded-xl p-4 mb-6">
+                        <p class="text-forest-green font-semibold text-center">
+                            Isso é só o começo! O <strong>Guia Definitivo de Introdução Alimentar</strong> tem cardápios completos, receitas e tudo que você precisa!
+                        </p>
+                    </div>
+                    
+                    <!-- CTA Buttons -->
+                    <div class="space-y-4">
+                        <p class="text-forest-green font-semibold text-center">
+                            Quer o mapa completo para alimentar seu bebê com <strong>total segurança e sabor</strong>?
+                        </p>
+                        <button class="w-full bg-salmon hover:bg-salmon-dark text-white font-bold py-4 px-6 rounded-full text-lg transition-all duration-300 transform hover:scale-105">
+                            SIM! QUERO MEU GUIA DE INTRODUÇÃO ALIMENTAR!
+                        </button>
+                        <p class="text-forest-green font-semibold text-center">
+                            Ou leve a <strong>Coleção Essencial</strong> e tenha a <strong>Paz de Espírito Completa!</strong>
+                        </p>
+                        <button class="w-full bg-forest-green hover:bg-green-800 text-white font-bold py-4 px-6 rounded-full text-lg transition-all duration-300 transform hover:scale-105">
+                            QUERO O PACOTE COM MEGA DESCONTO!
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-8 px-4 bg-white text-center border-t-2 border-forest-green">
+        <p class="text-forest-green font-semibold">
+            © 2024 Nutricionista Materno Infantil - Todos os direitos reservados
+        </p>
+    </footer>
+
+    <script>
+        // Menu Modal Functionality
+        const menuButton = document.getElementById('menuButton');
+        const menuModal = document.getElementById('menuModal');
+        const closeModal = document.getElementById('closeModal');
+        const ageButtons = document.querySelectorAll('.age-btn');
+        const menuContent = document.getElementById('menuContent');
+        const ageSelection = document.getElementById('ageSelection');
+        const menuTitle = document.getElementById('menuTitle');
+        const menuItems = document.getElementById('menuItems');
+
+        // Menu data for each age group
+        const menuData = {
+            '6-7': {
+                title: 'Cardápio Sugerido para 6-7 meses!',
+                items: [
+                    { meal: 'Café da Manhã', food: 'Leite + Fruta amassada' },
+                    { meal: 'Almoço', food: 'Papa de legumes + Proteína' },
+                    { meal: 'Lanche', food: 'Leite + Fruta' },
+                    { meal: 'Jantar', food: 'Papa de legumes' }
+                ]
+            },
+            '8-9': {
+                title: 'Cardápio Sugerido para 8-9 meses!',
+                items: [
+                    { meal: 'Café da Manhã', food: 'Leite + Mingau com fruta' },
+                    { meal: 'Almoço', food: 'Legumes em pedaços + Carne/Frango' },
+                    { meal: 'Lanche', food: 'Fruta + Iogurte' },
+                    { meal: 'Jantar', food: 'Similar ao almoço' }
+                ]
+            },
+            '10-11': {
+                title: 'Cardápio Sugerido para 10-11 meses!',
+                items: [
+                    { meal: 'Café da Manhã', food: 'Leite + Pão + Fruta' },
+                    { meal: 'Almoço', food: 'Arroz, feijão, carne, legumes' },
+                    { meal: 'Lanche', food: 'Fruta, ovo mexido' },
+                    { meal: 'Jantar', food: 'Comida da família (adaptada)' }
+                ]
+            },
+            '12+': {
+                title: 'Cardápio Sugerido para 12+ meses!',
+                items: [
+                    { meal: 'Café da Manhã', food: 'Pão, fruta' },
+                    { meal: 'Almoço', food: 'Arroz, carne, salada' },
+                    { meal: 'Lanche', food: 'Fruta, bolo simples' },
+                    { meal: 'Jantar', food: 'Sopa, pão' }
+                ]
+            }
+        };
+
+        // Open modal
+        menuButton.addEventListener('click', function() {
+            menuModal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        });
+
+        // Close modal
+        closeModal.addEventListener('click', function() {
+            menuModal.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+            resetModal();
+        });
+
+        // Close modal when clicking outside
+        menuModal.addEventListener('click', function(e) {
+            if (e.target === menuModal) {
+                menuModal.classList.add('hidden');
+                document.body.style.overflow = 'auto';
+                resetModal();
+            }
+        });
+
+        // Age button selection
+        ageButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const age = this.dataset.age;
+                const data = menuData[age];
+                
+                // Update title
+                menuTitle.textContent = data.title;
+                
+                // Generate menu items
+                let menuHTML = '';
+                data.items.forEach(item => {
+                    menuHTML += `
+                        <div class="flex justify-between items-center py-2 border-b border-gray-200 last:border-b-0">
+                            <span class="font-semibold text-forest-green">${item.meal}:</span>
+                            <span class="text-gray-700">${item.food}</span>
+                        </div>
+                    `;
+                });
+                menuItems.innerHTML = menuHTML;
+                
+                // Show menu content and hide age selection
+                ageSelection.classList.add('hidden');
+                menuContent.classList.remove('hidden');
+            });
+        });
+
+        // Reset modal to initial state
+        function resetModal() {
+            ageSelection.classList.remove('hidden');
+            menuContent.classList.add('hidden');
+        }
+
+        // Enhanced button interactions for purchase buttons
+        document.querySelectorAll('button:not(#menuButton):not(#closeModal):not(.age-btn)').forEach(button => {
+            button.addEventListener('click', function() {
+                // Create urgency effect
+                this.innerHTML = '⏳ Processando...';
+                this.disabled = true;
+                this.classList.remove('pulse-strong');
+                this.classList.add('animate-pulse');
+                
+                setTimeout(() => {
+                    alert('🎉 Redirecionando para o pagamento seguro!\n\nVocê está a um passo de transformar sua parentalidade!');
+                    this.innerHTML = this.innerHTML.replace('⏳ Processando...', '✅ COMPRAR AGORA');
+                    this.disabled = false;
+                    this.classList.remove('animate-pulse');
+                    this.classList.add('pulse-strong');
+                }, 2000);
+            });
+        });
+
+        // Scroll animations with intersection observer
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Apply scroll animations to all sections
+        document.querySelectorAll('section').forEach((section, index) => {
+            if (index > 0) { // Skip first section
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(30px)';
+                section.style.transition = 'all 0.8s ease-out';
+                observer.observe(section);
+            }
+        });
+
+        // Add countdown timer effect for urgency
+        let timeLeft = 3600; // 1 hour in seconds
+        
+        function updateCountdown() {
+            const hours = Math.floor(timeLeft / 3600);
+            const minutes = Math.floor((timeLeft % 3600) / 60);
+            const seconds = timeLeft % 60;
+            
+            const countdownElements = document.querySelectorAll('.countdown');
+            countdownElements.forEach(el => {
+                el.textContent = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            });
+            
+            if (timeLeft > 0) {
+                timeLeft--;
+                setTimeout(updateCountdown, 1000);
+            }
+        }
+        
+        // Start countdown
+        updateCountdown();
+
+        // Add floating animation trigger on scroll
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallax = document.querySelectorAll('.floating');
+            
+            parallax.forEach(element => {
+                const speed = 0.5;
+                element.style.transform = `translateY(${scrolled * speed}px)`;
+            });
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'95d49fc1c31fba11',t:'MTc1MjE5ODM1NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
